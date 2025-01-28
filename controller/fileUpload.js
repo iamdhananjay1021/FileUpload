@@ -1,7 +1,7 @@
 const File = require("../models/File");
 // const { options } = require("../routes/FileUpload");
 const cloudinary = require("cloudinary").v2
-
+console.log("hello")
 exports.localFileUpload = async (req, res) => {
     try {
         //   fetch file from request
